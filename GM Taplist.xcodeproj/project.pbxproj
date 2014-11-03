@@ -53,6 +53,10 @@
 		C352B11D1A0724C800B69B5F /* GRMAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = C352B11B1A0724C800B69B5F /* GRMAPI.h */; };
 		C352B11E1A0724C800B69B5F /* GRMAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = C352B11C1A0724C800B69B5F /* GRMAPI.m */; };
 		C352B1211A07269C00B69B5F /* GRMBaseObject_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C352B1201A07269C00B69B5F /* GRMBaseObject_Tests.m */; };
+		C352B1241A07298000B69B5F /* GRMConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = C352B1221A07298000B69B5F /* GRMConstants.h */; };
+		C352B1251A07298000B69B5F /* GRMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C352B1231A07298000B69B5F /* GRMConstants.m */; };
+		C352B1291A072AEA00B69B5F /* GRMUserDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = C352B1271A072AEA00B69B5F /* GRMUserDefaults.h */; };
+		C352B12A1A072AEA00B69B5F /* GRMUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = C352B1281A072AEA00B69B5F /* GRMUserDefaults.m */; };
 		FFF9F70352CFFC3C201BAB53 /* libPods-GM Taplist.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E506DD6B7D40F0A4273DED4D /* libPods-GM Taplist.a */; };
 /* End PBXBuildFile section */
 
@@ -181,6 +185,11 @@
 		C352B11B1A0724C800B69B5F /* GRMAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRMAPI.h; path = API/GRMAPI.h; sourceTree = "<group>"; };
 		C352B11C1A0724C800B69B5F /* GRMAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRMAPI.m; path = API/GRMAPI.m; sourceTree = "<group>"; };
 		C352B1201A07269C00B69B5F /* GRMBaseObject_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRMBaseObject_Tests.m; path = Models/GRMBaseObject_Tests.m; sourceTree = "<group>"; };
+		C352B1221A07298000B69B5F /* GRMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRMConstants.h; sourceTree = "<group>"; };
+		C352B1231A07298000B69B5F /* GRMConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRMConstants.m; sourceTree = "<group>"; };
+		C352B1271A072AEA00B69B5F /* GRMUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRMUserDefaults.h; path = "User Defaults/GRMUserDefaults.h"; sourceTree = "<group>"; };
+		C352B1281A072AEA00B69B5F /* GRMUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRMUserDefaults.m; path = "User Defaults/GRMUserDefaults.m"; sourceTree = "<group>"; };
+		C352B12B1A072EC000B69B5F /* GM Taplist.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "GM Taplist.entitlements"; sourceTree = "<group>"; };
 		D2F2548170FE1AF8342D578A /* Pods-GM TaplistTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GM TaplistTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GM TaplistTests/Pods-GM TaplistTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D81AF80DDE52725F927606F7 /* Pods-GM TaplistTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GM TaplistTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GM TaplistTests/Pods-GM TaplistTests.release.xcconfig"; sourceTree = "<group>"; };
 		E506DD6B7D40F0A4273DED4D /* libPods-GM Taplist.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GM Taplist.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -270,6 +279,7 @@
 		C352B0871A070F6100B69B5F /* GM Taplist */ = {
 			isa = PBXGroup;
 			children = (
+				C352B12B1A072EC000B69B5F /* GM Taplist.entitlements */,
 				C352B08C1A070F6100B69B5F /* AppDelegate.h */,
 				C352B08D1A070F6200B69B5F /* AppDelegate.m */,
 				C352B0951A070F6200B69B5F /* Main.storyboard */,
@@ -310,10 +320,13 @@
 		C352B0B71A070F9000B69B5F /* GRMKit */ = {
 			isa = PBXGroup;
 			children = (
+				C352B1261A07298C00B69B5F /* User Defaults */,
 				C352B11A1A07248B00B69B5F /* API */,
 				C352B0ED1A07153500B69B5F /* Models */,
 				C352B0BA1A070F9000B69B5F /* GRMKit.h */,
 				C352B0B81A070F9000B69B5F /* Supporting Files */,
+				C352B1221A07298000B69B5F /* GRMConstants.h */,
+				C352B1231A07298000B69B5F /* GRMConstants.m */,
 			);
 			path = GRMKit;
 			sourceTree = "<group>";
@@ -423,6 +436,15 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
+		C352B1261A07298C00B69B5F /* User Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				C352B1271A072AEA00B69B5F /* GRMUserDefaults.h */,
+				C352B1281A072AEA00B69B5F /* GRMUserDefaults.m */,
+			);
+			name = "User Defaults";
+			sourceTree = "<group>";
+		};
 		DB578C686BE0ABCDBE58CD8F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -447,9 +469,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C352B1241A07298000B69B5F /* GRMConstants.h in Headers */,
 				C352B11D1A0724C800B69B5F /* GRMAPI.h in Headers */,
 				C352B0F81A07165700B69B5F /* GRMBrewery.h in Headers */,
 				C352B1141A07237C00B69B5F /* GRMReview.h in Headers */,
+				C352B1291A072AEA00B69B5F /* GRMUserDefaults.h in Headers */,
 				C352B1181A07238800B69B5F /* GRMDevice.h in Headers */,
 				C352B10C1A0722E300B69B5F /* GRMStore.h in Headers */,
 				C352B1101A07235B00B69B5F /* GRMUser.h in Headers */,
@@ -577,6 +601,12 @@
 				TargetAttributes = {
 					C352B0841A070F6100B69B5F = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = SFNXE634D9;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					C352B0A01A070F6200B69B5F = {
 						CreatedOnToolsVersion = 6.1;
@@ -840,7 +870,9 @@
 				C352B1151A07237C00B69B5F /* GRMReview.m in Sources */,
 				C352B0F51A0715FE00B69B5F /* GRMBeer.m in Sources */,
 				C352B1191A07238800B69B5F /* GRMDevice.m in Sources */,
+				C352B1251A07298000B69B5F /* GRMConstants.m in Sources */,
 				C352B10D1A0722E300B69B5F /* GRMStore.m in Sources */,
+				C352B12A1A072AEA00B69B5F /* GRMUserDefaults.m in Sources */,
 				C352B0F11A07156400B69B5F /* GRMBaseObject.m in Sources */,
 				C352B1111A07235B00B69B5F /* GRMUser.m in Sources */,
 			);
@@ -996,9 +1028,13 @@
 			baseConfigurationReference = 6791CF224911FE3392810CF4 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "GM Taplist/GM Taplist.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "GM Taplist/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -1007,9 +1043,13 @@
 			baseConfigurationReference = 156D31A8C0691D96ACB14898 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "GM Taplist/GM Taplist.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "GM Taplist/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
