@@ -7,14 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C8B90A70E4E864AD70A3321 /* libPods-GRMKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC20215BC2648CB413C279BD /* libPods-GRMKitTests.a */; };
+		2D8E5D6B13F01B2C937FD2AA /* libPods-Latest Tapped.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA35333D42506AA3A6C3F9C /* libPods-Latest Tapped.a */; };
+		30993CFA5CB0B3853E59DA6B /* libPods-GM TaplistTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53BC0C064F1D2CA08AFF40F0 /* libPods-GM TaplistTests.a */; };
+		66DB4517C6DCA611A394CD4D /* libPods-GRMKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED8EF56A91D383F93267D18 /* libPods-GRMKit.a */; };
+		BB4B20F0E727B3CAC5BF61B7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FFFAC48F57B901A22728CA /* libPods.a */; };
 		C352B08B1A070F6100B69B5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C352B08A1A070F6100B69B5F /* main.m */; };
 		C352B08E1A070F6200B69B5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C352B08D1A070F6200B69B5F /* AppDelegate.m */; };
 		C352B0911A070F6200B69B5F /* GM_Taplist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C352B08F1A070F6200B69B5F /* GM_Taplist.xcdatamodeld */; };
-		C352B0941A070F6200B69B5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C352B0931A070F6200B69B5F /* ViewController.m */; };
 		C352B0971A070F6200B69B5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C352B0951A070F6200B69B5F /* Main.storyboard */; };
 		C352B0991A070F6200B69B5F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C352B0981A070F6200B69B5F /* Images.xcassets */; };
 		C352B09C1A070F6200B69B5F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C352B09A1A070F6200B69B5F /* LaunchScreen.xib */; };
 		C352B0A81A070F6200B69B5F /* GM_TaplistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C352B0A71A070F6200B69B5F /* GM_TaplistTests.m */; };
+		C352B0BB1A070F9000B69B5F /* GRMKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C352B0BA1A070F9000B69B5F /* GRMKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C352B0C11A070F9000B69B5F /* GRMKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C352B0B61A070F9000B69B5F /* GRMKit.framework */; };
+		C352B0CA1A070F9000B69B5F /* GRMKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C352B0C91A070F9000B69B5F /* GRMKitTests.m */; };
+		C352B0CD1A070F9000B69B5F /* GRMKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C352B0B61A070F9000B69B5F /* GRMKit.framework */; };
+		C352B0CE1A070F9000B69B5F /* GRMKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C352B0B61A070F9000B69B5F /* GRMKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C352B0DD1A07108B00B69B5F /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C352B0DC1A07108B00B69B5F /* NotificationCenter.framework */; };
+		C352B0E31A07108B00B69B5F /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C352B0E21A07108B00B69B5F /* TodayViewController.m */; };
+		C352B0E51A07108B00B69B5F /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C352B0E41A07108B00B69B5F /* MainInterface.storyboard */; };
+		C352B0E81A07108B00B69B5F /* Latest Tapped.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C352B0DA1A07108B00B69B5F /* Latest Tapped.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C352B0F01A07156400B69B5F /* GRMBaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C352B0EE1A07156400B69B5F /* GRMBaseObject.h */; };
+		C352B0F11A07156400B69B5F /* GRMBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C352B0EF1A07156400B69B5F /* GRMBaseObject.m */; };
+		C352B0F41A0715FE00B69B5F /* GRMBeer.h in Headers */ = {isa = PBXBuildFile; fileRef = C352B0F21A0715FE00B69B5F /* GRMBeer.h */; };
+		C352B0F51A0715FE00B69B5F /* GRMBeer.m in Sources */ = {isa = PBXBuildFile; fileRef = C352B0F31A0715FE00B69B5F /* GRMBeer.m */; };
+		C352B0F81A07165700B69B5F /* GRMBrewery.h in Headers */ = {isa = PBXBuildFile; fileRef = C352B0F61A07165700B69B5F /* GRMBrewery.h */; };
+		C352B0F91A07165700B69B5F /* GRMBrewery.m in Sources */ = {isa = PBXBuildFile; fileRef = C352B0F71A07165700B69B5F /* GRMBrewery.m */; };
+		C352B0FB1A071F2600B69B5F /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C352B0FA1A071F2600B69B5F /* libc++.dylib */; };
+		C352B1011A071F5000B69B5F /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C352B0FC1A071F5000B69B5F /* Accelerate.framework */; };
+		C352B1021A071F5000B69B5F /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C352B0FD1A071F5000B69B5F /* CloudKit.framework */; };
+		C352B1031A071F5000B69B5F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C352B0FE1A071F5000B69B5F /* CoreGraphics.framework */; };
+		C352B1041A071F5000B69B5F /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C352B0FF1A071F5000B69B5F /* LocalAuthentication.framework */; };
+		C352B1051A071F5000B69B5F /* PushKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C352B1001A071F5000B69B5F /* PushKit.framework */; };
+		C352B1081A07227A00B69B5F /* GRMStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = C352B1061A07227A00B69B5F /* GRMStyle.h */; };
+		C352B1091A07227A00B69B5F /* GRMStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = C352B1071A07227A00B69B5F /* GRMStyle.m */; };
+		C352B10C1A0722E300B69B5F /* GRMStore.h in Headers */ = {isa = PBXBuildFile; fileRef = C352B10A1A0722E300B69B5F /* GRMStore.h */; };
+		C352B10D1A0722E300B69B5F /* GRMStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C352B10B1A0722E300B69B5F /* GRMStore.m */; };
+		C352B1101A07235B00B69B5F /* GRMUser.h in Headers */ = {isa = PBXBuildFile; fileRef = C352B10E1A07235B00B69B5F /* GRMUser.h */; };
+		C352B1111A07235B00B69B5F /* GRMUser.m in Sources */ = {isa = PBXBuildFile; fileRef = C352B10F1A07235B00B69B5F /* GRMUser.m */; };
+		C352B1141A07237C00B69B5F /* GRMReview.h in Headers */ = {isa = PBXBuildFile; fileRef = C352B1121A07237C00B69B5F /* GRMReview.h */; };
+		C352B1151A07237C00B69B5F /* GRMReview.m in Sources */ = {isa = PBXBuildFile; fileRef = C352B1131A07237C00B69B5F /* GRMReview.m */; };
+		C352B1181A07238800B69B5F /* GRMDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = C352B1161A07238800B69B5F /* GRMDevice.h */; };
+		C352B1191A07238800B69B5F /* GRMDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = C352B1171A07238800B69B5F /* GRMDevice.m */; };
+		C352B11D1A0724C800B69B5F /* GRMAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = C352B11B1A0724C800B69B5F /* GRMAPI.h */; };
+		C352B11E1A0724C800B69B5F /* GRMAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = C352B11C1A0724C800B69B5F /* GRMAPI.m */; };
+		FFF9F70352CFFC3C201BAB53 /* libPods-GM Taplist.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E506DD6B7D40F0A4273DED4D /* libPods-GM Taplist.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,23 +63,126 @@
 			remoteGlobalIDString = C352B0841A070F6100B69B5F;
 			remoteInfo = "GM Taplist";
 		};
+		C352B0C21A070F9000B69B5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C352B07D1A070F6100B69B5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C352B0B51A070F9000B69B5F;
+			remoteInfo = GRMKit;
+		};
+		C352B0C41A070F9000B69B5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C352B07D1A070F6100B69B5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C352B0841A070F6100B69B5F;
+			remoteInfo = "GM Taplist";
+		};
+		C352B0CB1A070F9000B69B5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C352B07D1A070F6100B69B5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C352B0B51A070F9000B69B5F;
+			remoteInfo = GRMKit;
+		};
+		C352B0E61A07108B00B69B5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C352B07D1A070F6100B69B5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C352B0D91A07108B00B69B5F;
+			remoteInfo = "Latest Tapped";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C352B0D21A070F9000B69B5F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C352B0CE1A070F9000B69B5F /* GRMKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C352B0EC1A07108B00B69B5F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C352B0E81A07108B00B69B5F /* Latest Tapped.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		156D31A8C0691D96ACB14898 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		2644F5241FD844B56419CE71 /* Pods-GRMKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRMKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GRMKitTests/Pods-GRMKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		2DD3AC4F12D82051D7FE46B7 /* Pods-GRMKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRMKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GRMKitTests/Pods-GRMKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3ED8EF56A91D383F93267D18 /* libPods-GRMKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GRMKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FFFAC48F57B901A22728CA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C20FA85E67EC5153B6107B2 /* Pods-GRMKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRMKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GRMKit/Pods-GRMKit.debug.xcconfig"; sourceTree = "<group>"; };
+		53BC0C064F1D2CA08AFF40F0 /* libPods-GM TaplistTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GM TaplistTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57118B6C38D97F04B21597B3 /* Pods-Latest Tapped.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Latest Tapped.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Latest Tapped/Pods-Latest Tapped.debug.xcconfig"; sourceTree = "<group>"; };
+		6791CF224911FE3392810CF4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7172B50F4F6DDC465436EF1C /* Pods-Latest Tapped.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Latest Tapped.release.xcconfig"; path = "Pods/Target Support Files/Pods-Latest Tapped/Pods-Latest Tapped.release.xcconfig"; sourceTree = "<group>"; };
+		8EBDADCD2E10FD15426B5F83 /* Pods-GRMKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRMKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-GRMKit/Pods-GRMKit.release.xcconfig"; sourceTree = "<group>"; };
+		AC20215BC2648CB413C279BD /* libPods-GRMKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GRMKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C352B0851A070F6100B69B5F /* GM Taplist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GM Taplist.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C352B0891A070F6100B69B5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C352B08A1A070F6100B69B5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C352B08C1A070F6100B69B5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C352B08D1A070F6200B69B5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C352B0901A070F6200B69B5F /* GM_Taplist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GM_Taplist.xcdatamodel; sourceTree = "<group>"; };
-		C352B0921A070F6200B69B5F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C352B0931A070F6200B69B5F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C352B0961A070F6200B69B5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C352B0981A070F6200B69B5F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C352B09B1A070F6200B69B5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C352B0A11A070F6200B69B5F /* GM TaplistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GM TaplistTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C352B0A61A070F6200B69B5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C352B0A71A070F6200B69B5F /* GM_TaplistTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GM_TaplistTests.m; sourceTree = "<group>"; };
+		C352B0B61A070F9000B69B5F /* GRMKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GRMKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C352B0B91A070F9000B69B5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C352B0BA1A070F9000B69B5F /* GRMKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRMKit.h; sourceTree = "<group>"; };
+		C352B0C01A070F9000B69B5F /* GRMKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GRMKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C352B0C81A070F9000B69B5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C352B0C91A070F9000B69B5F /* GRMKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRMKitTests.m; sourceTree = "<group>"; };
+		C352B0DA1A07108B00B69B5F /* Latest Tapped.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Latest Tapped.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C352B0DC1A07108B00B69B5F /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		C352B0E01A07108B00B69B5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C352B0E11A07108B00B69B5F /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		C352B0E21A07108B00B69B5F /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		C352B0E41A07108B00B69B5F /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		C352B0EE1A07156400B69B5F /* GRMBaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRMBaseObject.h; path = Models/GRMBaseObject.h; sourceTree = "<group>"; };
+		C352B0EF1A07156400B69B5F /* GRMBaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRMBaseObject.m; path = Models/GRMBaseObject.m; sourceTree = "<group>"; };
+		C352B0F21A0715FE00B69B5F /* GRMBeer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRMBeer.h; path = Models/GRMBeer.h; sourceTree = "<group>"; };
+		C352B0F31A0715FE00B69B5F /* GRMBeer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRMBeer.m; path = Models/GRMBeer.m; sourceTree = "<group>"; };
+		C352B0F61A07165700B69B5F /* GRMBrewery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRMBrewery.h; path = Models/GRMBrewery.h; sourceTree = "<group>"; };
+		C352B0F71A07165700B69B5F /* GRMBrewery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRMBrewery.m; path = Models/GRMBrewery.m; sourceTree = "<group>"; };
+		C352B0FA1A071F2600B69B5F /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		C352B0FC1A071F5000B69B5F /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		C352B0FD1A071F5000B69B5F /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		C352B0FE1A071F5000B69B5F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C352B0FF1A071F5000B69B5F /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		C352B1001A071F5000B69B5F /* PushKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = System/Library/Frameworks/PushKit.framework; sourceTree = SDKROOT; };
+		C352B1061A07227A00B69B5F /* GRMStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRMStyle.h; path = Models/GRMStyle.h; sourceTree = "<group>"; };
+		C352B1071A07227A00B69B5F /* GRMStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRMStyle.m; path = Models/GRMStyle.m; sourceTree = "<group>"; };
+		C352B10A1A0722E300B69B5F /* GRMStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRMStore.h; path = Models/GRMStore.h; sourceTree = "<group>"; };
+		C352B10B1A0722E300B69B5F /* GRMStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRMStore.m; path = Models/GRMStore.m; sourceTree = "<group>"; };
+		C352B10E1A07235B00B69B5F /* GRMUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRMUser.h; path = Models/GRMUser.h; sourceTree = "<group>"; };
+		C352B10F1A07235B00B69B5F /* GRMUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRMUser.m; path = Models/GRMUser.m; sourceTree = "<group>"; };
+		C352B1121A07237C00B69B5F /* GRMReview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRMReview.h; path = Models/GRMReview.h; sourceTree = "<group>"; };
+		C352B1131A07237C00B69B5F /* GRMReview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRMReview.m; path = Models/GRMReview.m; sourceTree = "<group>"; };
+		C352B1161A07238800B69B5F /* GRMDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRMDevice.h; path = Models/GRMDevice.h; sourceTree = "<group>"; };
+		C352B1171A07238800B69B5F /* GRMDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRMDevice.m; path = Models/GRMDevice.m; sourceTree = "<group>"; };
+		C352B11B1A0724C800B69B5F /* GRMAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRMAPI.h; path = API/GRMAPI.h; sourceTree = "<group>"; };
+		C352B11C1A0724C800B69B5F /* GRMAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRMAPI.m; path = API/GRMAPI.m; sourceTree = "<group>"; };
+		D2F2548170FE1AF8342D578A /* Pods-GM TaplistTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GM TaplistTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GM TaplistTests/Pods-GM TaplistTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D81AF80DDE52725F927606F7 /* Pods-GM TaplistTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GM TaplistTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GM TaplistTests/Pods-GM TaplistTests.release.xcconfig"; sourceTree = "<group>"; };
+		E506DD6B7D40F0A4273DED4D /* libPods-GM Taplist.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GM Taplist.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA35333D42506AA3A6C3F9C /* libPods-Latest Tapped.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Latest Tapped.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +190,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C352B1011A071F5000B69B5F /* Accelerate.framework in Frameworks */,
+				C352B1021A071F5000B69B5F /* CloudKit.framework in Frameworks */,
+				C352B1031A071F5000B69B5F /* CoreGraphics.framework in Frameworks */,
+				C352B1041A071F5000B69B5F /* LocalAuthentication.framework in Frameworks */,
+				C352B1051A071F5000B69B5F /* PushKit.framework in Frameworks */,
+				C352B0FB1A071F2600B69B5F /* libc++.dylib in Frameworks */,
+				C352B0CD1A070F9000B69B5F /* GRMKit.framework in Frameworks */,
+				BB4B20F0E727B3CAC5BF61B7 /* libPods.a in Frameworks */,
+				FFF9F70352CFFC3C201BAB53 /* libPods-GM Taplist.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +206,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30993CFA5CB0B3853E59DA6B /* libPods-GM TaplistTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C352B0B21A070F9000B69B5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DB4517C6DCA611A394CD4D /* libPods-GRMKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C352B0BD1A070F9000B69B5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C352B0C11A070F9000B69B5F /* GRMKit.framework in Frameworks */,
+				1C8B90A70E4E864AD70A3321 /* libPods-GRMKitTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C352B0D71A07108B00B69B5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C352B0DD1A07108B00B69B5F /* NotificationCenter.framework in Frameworks */,
+				2D8E5D6B13F01B2C937FD2AA /* libPods-Latest Tapped.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,7 +244,12 @@
 			children = (
 				C352B0871A070F6100B69B5F /* GM Taplist */,
 				C352B0A41A070F6200B69B5F /* GM TaplistTests */,
+				C352B0B71A070F9000B69B5F /* GRMKit */,
+				C352B0C61A070F9000B69B5F /* GRMKitTests */,
+				C352B0DE1A07108B00B69B5F /* Latest Tapped */,
+				C352B0DB1A07108B00B69B5F /* Frameworks */,
 				C352B0861A070F6100B69B5F /* Products */,
+				DB578C686BE0ABCDBE58CD8F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +258,9 @@
 			children = (
 				C352B0851A070F6100B69B5F /* GM Taplist.app */,
 				C352B0A11A070F6200B69B5F /* GM TaplistTests.xctest */,
+				C352B0B61A070F9000B69B5F /* GRMKit.framework */,
+				C352B0C01A070F9000B69B5F /* GRMKitTests.xctest */,
+				C352B0DA1A07108B00B69B5F /* Latest Tapped.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,8 +270,6 @@
 			children = (
 				C352B08C1A070F6100B69B5F /* AppDelegate.h */,
 				C352B08D1A070F6200B69B5F /* AppDelegate.m */,
-				C352B0921A070F6200B69B5F /* ViewController.h */,
-				C352B0931A070F6200B69B5F /* ViewController.m */,
 				C352B0951A070F6200B69B5F /* Main.storyboard */,
 				C352B0981A070F6200B69B5F /* Images.xcassets */,
 				C352B09A1A070F6200B69B5F /* LaunchScreen.xib */,
@@ -122,20 +305,170 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C352B0B71A070F9000B69B5F /* GRMKit */ = {
+			isa = PBXGroup;
+			children = (
+				C352B11A1A07248B00B69B5F /* API */,
+				C352B0ED1A07153500B69B5F /* Models */,
+				C352B0BA1A070F9000B69B5F /* GRMKit.h */,
+				C352B0B81A070F9000B69B5F /* Supporting Files */,
+			);
+			path = GRMKit;
+			sourceTree = "<group>";
+		};
+		C352B0B81A070F9000B69B5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C352B0B91A070F9000B69B5F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C352B0C61A070F9000B69B5F /* GRMKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				C352B0C91A070F9000B69B5F /* GRMKitTests.m */,
+				C352B0C71A070F9000B69B5F /* Supporting Files */,
+			);
+			path = GRMKitTests;
+			sourceTree = "<group>";
+		};
+		C352B0C71A070F9000B69B5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C352B0C81A070F9000B69B5F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C352B0DB1A07108B00B69B5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C352B0FC1A071F5000B69B5F /* Accelerate.framework */,
+				C352B0FD1A071F5000B69B5F /* CloudKit.framework */,
+				C352B0FE1A071F5000B69B5F /* CoreGraphics.framework */,
+				C352B0FF1A071F5000B69B5F /* LocalAuthentication.framework */,
+				C352B1001A071F5000B69B5F /* PushKit.framework */,
+				C352B0FA1A071F2600B69B5F /* libc++.dylib */,
+				C352B0DC1A07108B00B69B5F /* NotificationCenter.framework */,
+				45FFFAC48F57B901A22728CA /* libPods.a */,
+				E506DD6B7D40F0A4273DED4D /* libPods-GM Taplist.a */,
+				53BC0C064F1D2CA08AFF40F0 /* libPods-GM TaplistTests.a */,
+				3ED8EF56A91D383F93267D18 /* libPods-GRMKit.a */,
+				AC20215BC2648CB413C279BD /* libPods-GRMKitTests.a */,
+				FEA35333D42506AA3A6C3F9C /* libPods-Latest Tapped.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C352B0DE1A07108B00B69B5F /* Latest Tapped */ = {
+			isa = PBXGroup;
+			children = (
+				C352B0E11A07108B00B69B5F /* TodayViewController.h */,
+				C352B0E21A07108B00B69B5F /* TodayViewController.m */,
+				C352B0E41A07108B00B69B5F /* MainInterface.storyboard */,
+				C352B0DF1A07108B00B69B5F /* Supporting Files */,
+			);
+			path = "Latest Tapped";
+			sourceTree = "<group>";
+		};
+		C352B0DF1A07108B00B69B5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C352B0E01A07108B00B69B5F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C352B0ED1A07153500B69B5F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C352B0EE1A07156400B69B5F /* GRMBaseObject.h */,
+				C352B0EF1A07156400B69B5F /* GRMBaseObject.m */,
+				C352B0F21A0715FE00B69B5F /* GRMBeer.h */,
+				C352B0F31A0715FE00B69B5F /* GRMBeer.m */,
+				C352B0F61A07165700B69B5F /* GRMBrewery.h */,
+				C352B0F71A07165700B69B5F /* GRMBrewery.m */,
+				C352B1061A07227A00B69B5F /* GRMStyle.h */,
+				C352B1071A07227A00B69B5F /* GRMStyle.m */,
+				C352B10A1A0722E300B69B5F /* GRMStore.h */,
+				C352B10B1A0722E300B69B5F /* GRMStore.m */,
+				C352B10E1A07235B00B69B5F /* GRMUser.h */,
+				C352B10F1A07235B00B69B5F /* GRMUser.m */,
+				C352B1121A07237C00B69B5F /* GRMReview.h */,
+				C352B1131A07237C00B69B5F /* GRMReview.m */,
+				C352B1161A07238800B69B5F /* GRMDevice.h */,
+				C352B1171A07238800B69B5F /* GRMDevice.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C352B11A1A07248B00B69B5F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C352B11B1A0724C800B69B5F /* GRMAPI.h */,
+				C352B11C1A0724C800B69B5F /* GRMAPI.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		DB578C686BE0ABCDBE58CD8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6791CF224911FE3392810CF4 /* Pods.debug.xcconfig */,
+				156D31A8C0691D96ACB14898 /* Pods.release.xcconfig */,
+				D2F2548170FE1AF8342D578A /* Pods-GM TaplistTests.debug.xcconfig */,
+				D81AF80DDE52725F927606F7 /* Pods-GM TaplistTests.release.xcconfig */,
+				4C20FA85E67EC5153B6107B2 /* Pods-GRMKit.debug.xcconfig */,
+				8EBDADCD2E10FD15426B5F83 /* Pods-GRMKit.release.xcconfig */,
+				2DD3AC4F12D82051D7FE46B7 /* Pods-GRMKitTests.debug.xcconfig */,
+				2644F5241FD844B56419CE71 /* Pods-GRMKitTests.release.xcconfig */,
+				57118B6C38D97F04B21597B3 /* Pods-Latest Tapped.debug.xcconfig */,
+				7172B50F4F6DDC465436EF1C /* Pods-Latest Tapped.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C352B0B31A070F9000B69B5F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C352B11D1A0724C800B69B5F /* GRMAPI.h in Headers */,
+				C352B0F81A07165700B69B5F /* GRMBrewery.h in Headers */,
+				C352B1141A07237C00B69B5F /* GRMReview.h in Headers */,
+				C352B1181A07238800B69B5F /* GRMDevice.h in Headers */,
+				C352B10C1A0722E300B69B5F /* GRMStore.h in Headers */,
+				C352B1101A07235B00B69B5F /* GRMUser.h in Headers */,
+				C352B0BB1A070F9000B69B5F /* GRMKit.h in Headers */,
+				C352B0F01A07156400B69B5F /* GRMBaseObject.h in Headers */,
+				C352B1081A07227A00B69B5F /* GRMStyle.h in Headers */,
+				C352B0F41A0715FE00B69B5F /* GRMBeer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		C352B0841A070F6100B69B5F /* GM Taplist */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C352B0AB1A070F6200B69B5F /* Build configuration list for PBXNativeTarget "GM Taplist" */;
 			buildPhases = (
+				A4971F49E7201F71C504937D /* Check Pods Manifest.lock */,
 				C352B0811A070F6100B69B5F /* Sources */,
 				C352B0821A070F6100B69B5F /* Frameworks */,
 				C352B0831A070F6100B69B5F /* Resources */,
+				C352B0D21A070F9000B69B5F /* Embed Frameworks */,
+				C352B0EC1A07108B00B69B5F /* Embed App Extensions */,
+				1193B94769CA1F0E28028341 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C352B0CC1A070F9000B69B5F /* PBXTargetDependency */,
+				C352B0E71A07108B00B69B5F /* PBXTargetDependency */,
 			);
 			name = "GM Taplist";
 			productName = "GM Taplist";
@@ -146,9 +479,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C352B0AE1A070F6200B69B5F /* Build configuration list for PBXNativeTarget "GM TaplistTests" */;
 			buildPhases = (
+				525B7B958E4B0D3922ED93DD /* Check Pods Manifest.lock */,
 				C352B09D1A070F6200B69B5F /* Sources */,
 				C352B09E1A070F6200B69B5F /* Frameworks */,
 				C352B09F1A070F6200B69B5F /* Resources */,
+				E39CD8AC5776C4C20F25DC89 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,6 +494,66 @@
 			productName = "GM TaplistTests";
 			productReference = C352B0A11A070F6200B69B5F /* GM TaplistTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C352B0B51A070F9000B69B5F /* GRMKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C352B0CF1A070F9000B69B5F /* Build configuration list for PBXNativeTarget "GRMKit" */;
+			buildPhases = (
+				39709E832D7B6A03ED35D9C2 /* Check Pods Manifest.lock */,
+				C352B0B11A070F9000B69B5F /* Sources */,
+				C352B0B21A070F9000B69B5F /* Frameworks */,
+				C352B0B31A070F9000B69B5F /* Headers */,
+				C352B0B41A070F9000B69B5F /* Resources */,
+				426723316CCB7E952AD18724 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GRMKit;
+			productName = GRMKit;
+			productReference = C352B0B61A070F9000B69B5F /* GRMKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C352B0BF1A070F9000B69B5F /* GRMKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C352B0D31A070F9000B69B5F /* Build configuration list for PBXNativeTarget "GRMKitTests" */;
+			buildPhases = (
+				03757D1CD278F42C526B73E3 /* Check Pods Manifest.lock */,
+				C352B0BC1A070F9000B69B5F /* Sources */,
+				C352B0BD1A070F9000B69B5F /* Frameworks */,
+				C352B0BE1A070F9000B69B5F /* Resources */,
+				3125B71ABA0E7695D48F0061 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C352B0C31A070F9000B69B5F /* PBXTargetDependency */,
+				C352B0C51A070F9000B69B5F /* PBXTargetDependency */,
+			);
+			name = GRMKitTests;
+			productName = GRMKitTests;
+			productReference = C352B0C01A070F9000B69B5F /* GRMKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C352B0D91A07108B00B69B5F /* Latest Tapped */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C352B0E91A07108B00B69B5F /* Build configuration list for PBXNativeTarget "Latest Tapped" */;
+			buildPhases = (
+				CFAF9542B366A73AB8B85B7B /* Check Pods Manifest.lock */,
+				C352B0D61A07108B00B69B5F /* Sources */,
+				C352B0D71A07108B00B69B5F /* Frameworks */,
+				C352B0D81A07108B00B69B5F /* Resources */,
+				F8E4566DE8487860777903B8 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Latest Tapped";
+			productName = "Latest Tapped";
+			productReference = C352B0DA1A07108B00B69B5F /* Latest Tapped.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -175,6 +570,16 @@
 					C352B0A01A070F6200B69B5F = {
 						CreatedOnToolsVersion = 6.1;
 						TestTargetID = C352B0841A070F6100B69B5F;
+					};
+					C352B0B51A070F9000B69B5F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					C352B0BF1A070F9000B69B5F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = C352B0841A070F6100B69B5F;
+					};
+					C352B0D91A07108B00B69B5F = {
+						CreatedOnToolsVersion = 6.1;
 					};
 				};
 			};
@@ -193,6 +598,9 @@
 			targets = (
 				C352B0841A070F6100B69B5F /* GM Taplist */,
 				C352B0A01A070F6200B69B5F /* GM TaplistTests */,
+				C352B0B51A070F9000B69B5F /* GRMKit */,
+				C352B0BF1A070F9000B69B5F /* GRMKitTests */,
+				C352B0D91A07108B00B69B5F /* Latest Tapped */,
 			);
 		};
 /* End PBXProject section */
@@ -215,7 +623,182 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C352B0B41A070F9000B69B5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C352B0BE1A070F9000B69B5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C352B0D81A07108B00B69B5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C352B0E51A07108B00B69B5F /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03757D1CD278F42C526B73E3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1193B94769CA1F0E28028341 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GM Taplist/Pods-GM Taplist-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3125B71ABA0E7695D48F0061 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GRMKitTests/Pods-GRMKitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39709E832D7B6A03ED35D9C2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		426723316CCB7E952AD18724 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GRMKit/Pods-GRMKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		525B7B958E4B0D3922ED93DD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A4971F49E7201F71C504937D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CFAF9542B366A73AB8B85B7B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E39CD8AC5776C4C20F25DC89 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GM TaplistTests/Pods-GM TaplistTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8E4566DE8487860777903B8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Latest Tapped/Pods-Latest Tapped-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C352B0811A070F6100B69B5F /* Sources */ = {
@@ -224,7 +807,6 @@
 			files = (
 				C352B0911A070F6200B69B5F /* GM_Taplist.xcdatamodeld in Sources */,
 				C352B08E1A070F6200B69B5F /* AppDelegate.m in Sources */,
-				C352B0941A070F6200B69B5F /* ViewController.m in Sources */,
 				C352B08B1A070F6100B69B5F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,6 +819,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C352B0B11A070F9000B69B5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C352B11E1A0724C800B69B5F /* GRMAPI.m in Sources */,
+				C352B1091A07227A00B69B5F /* GRMStyle.m in Sources */,
+				C352B0F91A07165700B69B5F /* GRMBrewery.m in Sources */,
+				C352B1151A07237C00B69B5F /* GRMReview.m in Sources */,
+				C352B0F51A0715FE00B69B5F /* GRMBeer.m in Sources */,
+				C352B1191A07238800B69B5F /* GRMDevice.m in Sources */,
+				C352B10D1A0722E300B69B5F /* GRMStore.m in Sources */,
+				C352B0F11A07156400B69B5F /* GRMBaseObject.m in Sources */,
+				C352B1111A07235B00B69B5F /* GRMUser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C352B0BC1A070F9000B69B5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C352B0CA1A070F9000B69B5F /* GRMKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C352B0D61A07108B00B69B5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C352B0E31A07108B00B69B5F /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -244,6 +858,26 @@
 			isa = PBXTargetDependency;
 			target = C352B0841A070F6100B69B5F /* GM Taplist */;
 			targetProxy = C352B0A21A070F6200B69B5F /* PBXContainerItemProxy */;
+		};
+		C352B0C31A070F9000B69B5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C352B0B51A070F9000B69B5F /* GRMKit */;
+			targetProxy = C352B0C21A070F9000B69B5F /* PBXContainerItemProxy */;
+		};
+		C352B0C51A070F9000B69B5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C352B0841A070F6100B69B5F /* GM Taplist */;
+			targetProxy = C352B0C41A070F9000B69B5F /* PBXContainerItemProxy */;
+		};
+		C352B0CC1A070F9000B69B5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C352B0B51A070F9000B69B5F /* GRMKit */;
+			targetProxy = C352B0CB1A070F9000B69B5F /* PBXContainerItemProxy */;
+		};
+		C352B0E71A07108B00B69B5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C352B0D91A07108B00B69B5F /* Latest Tapped */;
+			targetProxy = C352B0E61A07108B00B69B5F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -347,6 +981,7 @@
 		};
 		C352B0AC1A070F6200B69B5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6791CF224911FE3392810CF4 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "GM Taplist/Info.plist";
@@ -357,6 +992,7 @@
 		};
 		C352B0AD1A070F6200B69B5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 156D31A8C0691D96ACB14898 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "GM Taplist/Info.plist";
@@ -367,6 +1003,7 @@
 		};
 		C352B0AF1A070F6200B69B5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2F2548170FE1AF8342D578A /* Pods-GM TaplistTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -386,6 +1023,7 @@
 		};
 		C352B0B01A070F6200B69B5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D81AF80DDE52725F927606F7 /* Pods-GM TaplistTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -396,6 +1034,108 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GM Taplist.app/GM Taplist";
+			};
+			name = Release;
+		};
+		C352B0D01A070F9000B69B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C20FA85E67EC5153B6107B2 /* Pods-GRMKit.debug.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GRMKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C352B0D11A070F9000B69B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EBDADCD2E10FD15426B5F83 /* Pods-GRMKit.release.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GRMKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C352B0D41A070F9000B69B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DD3AC4F12D82051D7FE46B7 /* Pods-GRMKitTests.debug.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GRMKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GM Taplist.app/GM Taplist";
+			};
+			name = Debug;
+		};
+		C352B0D51A070F9000B69B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2644F5241FD844B56419CE71 /* Pods-GRMKitTests.release.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GRMKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GM Taplist.app/GM Taplist";
+			};
+			name = Release;
+		};
+		C352B0EA1A07108B00B69B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57118B6C38D97F04B21597B3 /* Pods-Latest Tapped.debug.xcconfig */;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Latest Tapped/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C352B0EB1A07108B00B69B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7172B50F4F6DDC465436EF1C /* Pods-Latest Tapped.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Latest Tapped/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -418,6 +1158,7 @@
 				C352B0AD1A070F6200B69B5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C352B0AE1A070F6200B69B5F /* Build configuration list for PBXNativeTarget "GM TaplistTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +1167,34 @@
 				C352B0B01A070F6200B69B5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C352B0CF1A070F9000B69B5F /* Build configuration list for PBXNativeTarget "GRMKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C352B0D01A070F9000B69B5F /* Debug */,
+				C352B0D11A070F9000B69B5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C352B0D31A070F9000B69B5F /* Build configuration list for PBXNativeTarget "GRMKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C352B0D41A070F9000B69B5F /* Debug */,
+				C352B0D51A070F9000B69B5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C352B0E91A07108B00B69B5F /* Build configuration list for PBXNativeTarget "Latest Tapped" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C352B0EA1A07108B00B69B5F /* Debug */,
+				C352B0EB1A07108B00B69B5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

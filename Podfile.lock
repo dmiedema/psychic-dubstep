@@ -1,0 +1,57 @@
+PODS:
+  - AFNetworking (2.4.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.4.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.4.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.4.1)
+  - AFNetworking/Security (2.4.1)
+  - AFNetworking/Serialization (2.4.1)
+  - AFNetworking/UIKit (2.4.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - CocoaLumberjack (2.0.0-beta3):
+    - CocoaLumberjack/Default
+    - CocoaLumberjack/Extensions
+  - CocoaLumberjack/Core (2.0.0-beta3)
+  - CocoaLumberjack/Default (2.0.0-beta3):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.0-beta3):
+    - CocoaLumberjack/Default
+  - GroundControl (2.1.0):
+    - AFNetworking (~> 2.2)
+  - OCMock (3.1.1)
+  - Realm (0.87.1):
+    - Realm/Headers
+  - Realm/Headers (0.87.1)
+  - SDWebImage (3.7.1):
+    - SDWebImage/Core
+  - SDWebImage/Core (3.7.1)
+
+DEPENDENCIES:
+  - AFNetworking
+  - CocoaLumberjack
+  - GroundControl
+  - OCMock
+  - Realm
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  AFNetworking: 0aabc6fae66d6e5d039eeb21c315843c7aae51ab
+  CocoaLumberjack: 55c22a2b8bde7a29c568ab4015b5874216524d70
+  GroundControl: 2f9024230e41ff5e5a8e3ca060ed1b74883bdd1a
+  OCMock: f6cb8c162ab9d5620dddf411282c7b2c0ee78854
+  Realm: d2a10a60bbbd66c64ae8d839a378b88c68cf79bb
+  SDWebImage: 116e88633b5b416ea0ca4b334a4ac59cf72dd38d
+
+COCOAPODS: 0.34.2
