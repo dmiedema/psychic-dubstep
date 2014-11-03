@@ -52,6 +52,7 @@
 		C352B1191A07238800B69B5F /* GRMDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = C352B1171A07238800B69B5F /* GRMDevice.m */; };
 		C352B11D1A0724C800B69B5F /* GRMAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = C352B11B1A0724C800B69B5F /* GRMAPI.h */; };
 		C352B11E1A0724C800B69B5F /* GRMAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = C352B11C1A0724C800B69B5F /* GRMAPI.m */; };
+		C352B1211A07269C00B69B5F /* GRMBaseObject_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C352B1201A07269C00B69B5F /* GRMBaseObject_Tests.m */; };
 		FFF9F70352CFFC3C201BAB53 /* libPods-GM Taplist.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E506DD6B7D40F0A4273DED4D /* libPods-GM Taplist.a */; };
 /* End PBXBuildFile section */
 
@@ -179,6 +180,7 @@
 		C352B1171A07238800B69B5F /* GRMDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRMDevice.m; path = Models/GRMDevice.m; sourceTree = "<group>"; };
 		C352B11B1A0724C800B69B5F /* GRMAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRMAPI.h; path = API/GRMAPI.h; sourceTree = "<group>"; };
 		C352B11C1A0724C800B69B5F /* GRMAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRMAPI.m; path = API/GRMAPI.m; sourceTree = "<group>"; };
+		C352B1201A07269C00B69B5F /* GRMBaseObject_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRMBaseObject_Tests.m; path = Models/GRMBaseObject_Tests.m; sourceTree = "<group>"; };
 		D2F2548170FE1AF8342D578A /* Pods-GM TaplistTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GM TaplistTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GM TaplistTests/Pods-GM TaplistTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D81AF80DDE52725F927606F7 /* Pods-GM TaplistTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GM TaplistTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GM TaplistTests/Pods-GM TaplistTests.release.xcconfig"; sourceTree = "<group>"; };
 		E506DD6B7D40F0A4273DED4D /* libPods-GM Taplist.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GM Taplist.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -327,6 +329,7 @@
 		C352B0C61A070F9000B69B5F /* GRMKitTests */ = {
 			isa = PBXGroup;
 			children = (
+				C352B11F1A07268200B69B5F /* Models */,
 				C352B0C91A070F9000B69B5F /* GRMKitTests.m */,
 				C352B0C71A070F9000B69B5F /* Supporting Files */,
 			);
@@ -410,6 +413,14 @@
 				C352B11C1A0724C800B69B5F /* GRMAPI.m */,
 			);
 			name = API;
+			sourceTree = "<group>";
+		};
+		C352B11F1A07268200B69B5F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C352B1201A07269C00B69B5F /* GRMBaseObject_Tests.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		DB578C686BE0ABCDBE58CD8F /* Pods */ = {
@@ -839,6 +850,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C352B1211A07269C00B69B5F /* GRMBaseObject_Tests.m in Sources */,
 				C352B0CA1A070F9000B69B5F /* GRMKitTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
