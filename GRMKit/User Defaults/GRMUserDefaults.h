@@ -10,22 +10,27 @@
 #import "GRMConstants.h"
 
 /**
+ *  Key to get users preferred store ID for widget
+ */
+extern NSString * const GRMUserDefaultsLatestTappedStoreID;
+
+/**
  *  User defaults suite name corresponding to app group
  */
 extern NSString * const GRMUserDefaultsLatestTappedSuiteName;
+
+/**
+ *  Key to get push token for device
+ */
+extern NSString * const GRMUserDefaultsPushToken;
 
 /**
  *  Key to get users ID
  */
 extern NSString * const GRMUserDefaultsUserID;
 
-/**
- *  Key to get users preferred store ID for widget
- */
-extern NSString * const GRMUserDefaultsLatestTappedStoreID;
-
-
 @interface GRMUserDefaults : NSUserDefaults
+
 /**
  *  <#Description#>
  *
@@ -40,4 +45,11 @@ extern NSString * const GRMUserDefaultsLatestTappedStoreID;
  *  @param key to use
  */
 + (void)setObjectInAllSuites:(id)obj forKey:(NSString *)key;
+
+/**
+ *  Remove an object in all the suites for a specific key
+ *
+ *  @param key to use
+ */
++ (void)removeObjectInAllSuitesForKey:(NSString *)key;
 @end

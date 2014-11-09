@@ -8,9 +8,10 @@
 
 #import "GRMUserDefaults.h"
 
-NSString * const GRMUserDefaultsLatestTappedSuiteName = @"group.GrowlMovement.GMTaplist.LatestTapped";
-NSString * const GRMUserDefaultsUserID                = @"GRMUserDefaultsUserID";
 NSString * const GRMUserDefaultsLatestTappedStoreID   = @"GRMUserDefaultsLatestTappedStoreID";
+NSString * const GRMUserDefaultsLatestTappedSuiteName = @"group.GrowlMovement.GMTaplist.LatestTapped";
+NSString * const GRMUserDefaultsPushToken             = @"GRMUserDefaultsPushToken";
+NSString * const GRMUserDefaultsUserID                = @"GRMUserDefaultsUserID";
 
 @interface GRMUserDefaults()
 + (NSArray *)allSuites;
@@ -29,6 +30,13 @@ NSString * const GRMUserDefaultsLatestTappedStoreID   = @"GRMUserDefaultsLatestT
 + (void)setObjectInAllSuites:(id)obj forKey:(NSString *)key {
     for (NSUserDefaults *suite in [self allSuites]) {
         [suite setObject:obj forKey:key];
+        [suite synchronize];
+    }
+}
+
++ (void)removeObjectInAllSuitesForKey:(NSString *)key {
+    for (NSUserDefaults *suite in [self allSuites]) {
+        [suite removeObjectForKey:key];
         [suite synchronize];
     }
 }

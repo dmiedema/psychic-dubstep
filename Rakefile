@@ -7,4 +7,6 @@ namespace "test" do
   run "xcodebuild -workspace 'GM Taplist.xcworkspace' -scheme 'GM Taplist' -sdk iphonesimulator clean test"
 end
 
-task default: ["test"]
+namespace "build" do
+  # This would create an ipa but... thats more work
+end
