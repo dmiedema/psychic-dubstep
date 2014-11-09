@@ -1,0 +1,6 @@
+language: objective-c
+xcode_workspace: GM Taplist.xcworkspace
+xcode_scheme: GM Taplist
+xcode_sdk:
+  - iphonesimulator8.0
+
