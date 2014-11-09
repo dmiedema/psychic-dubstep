@@ -1,4 +1,8 @@
 language: objective-c
+before_install:
+  - brew update
+  - brew reinstall xctool
+  - gem update cocoapods
 xcode_workspace: GM Taplist.xcworkspace
 xcode_scheme: GM Taplist
 xcode_sdk:
